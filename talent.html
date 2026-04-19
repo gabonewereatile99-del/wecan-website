@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talent Hub | Submit your profile to WECAN</title>
+    <meta name="description" content="Join the WECAN Talent Hub and submit your category, bio, social links, and performance media for event opportunities.">
+    <meta name="keywords" content="talent hub, artist submission, performer booking, WECAN creatives, talent discovery platform">
+    <meta property="og:title" content="WECAN Talent Hub">
+    <meta property="og:description" content="A structured platform for artists, performers, and creatives to be discovered for real event opportunities.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/logo.png">
+    <meta property="og:url" content="https://wecan-events-and-promotions.co.za/talent.html">
+    <link rel="canonical" href="https://wecan-events-and-promotions.co.za/talent.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="talent">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <!-- Shared header -->
+    <header class="site-header">
+        <div class="topbar shell">
+            <a class="brand" href="index.html" aria-label="WECAN Events and Promotions home page">
+                <img src="images/logo.png" alt="WECAN Events and Promotions logo">
+                <span class="brand-copy">
+                    <strong>WECAN Events &amp; Promotions</strong>
+                    <small>Where talent meets opportunity</small>
+                </span>
+            </a>
+
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation">
+                Menu
+            </button>
+
+            <nav class="site-nav" id="site-navigation" aria-label="Primary navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="talent.html" aria-current="page">Talent Hub</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+                <a class="nav-cta" href="enquiry.html">Book an Event</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Page hero -->
+        <section class="page-hero" style="--hero-image: url('images/party2.jpg');">
+            <div class="shell page-hero-copy reveal">
+                <span class="eyebrow">Talent discovery platform</span>
+                <h1>Submit your profile and let your work speak loudly</h1>
+                <p>
+                    The Talent Hub gives young creatives a more professional route into real bookings through a
+                    structured profile submission instead of scattered social media direct messages.
+                </p>
+            </div>
+        </section>
+
+        <!-- Benefits -->
+        <section class="section shell reveal">
+            <div class="card-grid">
+                <article class="surface-card">
+                    <h2>Who should apply?</h2>
+                    <p>DJs, MCs, dancers, spoken word artists, vocalists, hosts, and other performers who want event opportunities.</p>
+                </article>
+
+                <article class="surface-card">
+                    <h2>What to prepare</h2>
+                    <p>A short professional bio, your city, a performance link, your social handles, and an optional media kit or profile image.</p>
+                </article>
+
+                <article class="surface-card">
+                    <h2>Why this page matters</h2>
+                    <p>It helps WECAN review talent consistently and match the right creatives to the right audiences.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Steps -->
+        <section class="section section-dark">
+            <div class="shell">
+                <div class="section-heading centered reveal">
+                    <span class="eyebrow">Simple two-step UX</span>
+                    <h2>Designed to reduce submission drop-off</h2>
+                </div>
+
+                <div class="timeline-grid">
+                    <article class="timeline-card reveal">
+                        <span>01</span>
+                        <h3>Tell us who you are</h3>
+                        <p>Choose your performance category, add your city, and introduce your creative identity.</p>
+                    </article>
+
+                    <article class="timeline-card reveal">
+                        <span>02</span>
+                        <h3>Show us your work</h3>
+                        <p>Share a video or portfolio link and upload an optional media kit so your work can be reviewed properly.</p>
+                    </article>
+
+                    <article class="timeline-card reveal">
+                        <span>03</span>
+                        <h3>Wait for your review</h3>
+                        <p>WECAN reviews your submission and reaches out when an opportunity or collaboration fit opens up.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Talent form -->
+        <section class="section shell reveal">
+            <div class="section-heading">
+                <span class="eyebrow">Submission form</span>
+                <h2>Join the WECAN Talent Hub</h2>
+            </div>
+
+            <div class="form-layout">
+                <form id="talent-form" class="form-shell" action="#talent-response" method="post">
+                    <div class="field-grid">
+                        <label class="field">
+                            <span>Stage name or artist name</span>
+                            <input type="text" name="stageName" minlength="2" required>
+                        </label>
+
+                        <label class="field">
+                            <span>Full name</span>
+                            <input type="text" name="fullName" minlength="4" required>
+                        </label>
+
+                        <label class="field">
+                            <span>Performance category</span>
+                            <select name="category" required>
+                                <option value="">Select one</option>
+                                <option value="DJ">DJ</option>
+                                <option value="MC">MC / Host</option>
+                                <option value="Dance">Dance group</option>
+                                <option value="Music">Singer / Music act</option>
+                                <option value="Spoken Word">Spoken word / poetry</option>
+                                <option value="Other">Other creative act</option>
+                            </select>
+                        </label>
+
+                        <label class="field">
+                            <span>City</span>
+                            <input type="text" name="city" minlength="2" required>
+                        </label>
+
+                        <label class="field">
+                            <span>Email address</span>
+                            <input type="email" name="email" required>
+                        </label>
+
+                        <label class="field">
+                            <span>Phone number</span>
+                            <input type="tel" name="phone" pattern="^\+?[0-9 ]{10,15}$" placeholder="+27 66 403 4234" required>
+                        </label>
+
+                        <label class="field field-full">
+                            <span>Performance video or portfolio link</span>
+                            <input type="url" name="videoLink" placeholder="https://..." required>
+                        </label>
+
+                        <label class="field field-full">
+                            <span>Instagram or social media link</span>
+                            <input type="url" name="socialLink" placeholder="https://instagram.com/...">
+                        </label>
+
+                        <label class="field field-full">
+                            <span>Short bio</span>
+                            <textarea name="bio" rows="5" minlength="40" placeholder="Tell WECAN about your style, experience, and the kind of events you want to perform at." required></textarea>
+                        </label>
+
+                        <label class="field field-full">
+                            <span>Optional media kit or profile image</span>
+                            <input type="file" name="mediaKit" accept=".pdf,image/*">
+                        </label>
+                    </div>
+
+                    <label class="consent-field">
+                        <input type="checkbox" name="consent" required>
+                        <span>I confirm that the links and media shared here belong to me or my act.</span>
+                    </label>
+
+                    <button class="button button-primary" type="submit">Submit talent profile</button>
+                </form>
+
+                <aside class="status-panel" id="talent-response" role="status" aria-live="polite">
+                    <h3>What happens next?</h3>
+                    <p>
+                        Your summary will appear here after submission. This gives applicants immediate feedback and
+                        keeps the flow more transparent and professional.
+                    </p>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <!-- Shared footer -->
+    <footer class="site-footer">
+        <div class="shell footer-grid">
+            <div>
+                <h3>WECAN Events &amp; Promotions</h3>
+                <p>
+                    Professional event planning, talent promotion, and audience-focused experiences built for growth,
+                    visibility, and community impact.
+                </p>
+            </div>
+
+            <div>
+                <h4>Quick links</h4>
+                <ul class="footer-links">
+                    <li><a href="about.html">About the company</a></li>
+                    <li><a href="services.html">Packages and pricing</a></li>
+                    <li><a href="talent.html">Talent Hub</a></li>
+                    <li><a href="gallery.html">Event gallery</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Contact</h4>
+                <ul class="footer-links">
+                    <li><a href="mailto:wecaneventsandpromotions@gmail.com">wecaneventsandpromotions@gmail.com</a></li>
+                    <li><a href="tel:+27664034234">+27 66 403 4234</a></li>
+                    <li>Moletsamongwe Village, Mahikeng, North West</li>
+                    <li><a href="https://wa.me/27664034234">WhatsApp chat</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Social presence</h4>
+                <ul class="footer-links">
+                    <li>Facebook: WECAN Events And Promotions</li>
+                    <li>Instagram: @wecan_events_and_promotions</li>
+                    <li>Youth-driven event and talent platform</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="shell footer-bottom">
+            <p>&copy; <span id="current-year">2026</span> WECAN Events &amp; Promotions.</p>
+        </div>
+    </footer>
+
+    <a class="floating-cta" href="enquiry.html">Book an Event</a>
+
+    <script src="js/main.js" defer></script>
+</body>
+</html>

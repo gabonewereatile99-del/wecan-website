@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book an Event | WECAN enquiry form and instant estimate</title>
+    <meta name="description" content="Send a WECAN event enquiry with your package, date, budget, and guest count to receive a quick estimate and availability response.">
+    <meta name="keywords" content="book an event, event enquiry form, event quote South Africa, WECAN booking">
+    <meta property="og:title" content="Book an Event with WECAN">
+    <meta property="og:description" content="Structured booking form with validation, estimate feedback, and next-step recommendations.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/eventplanning2.jpg">
+    <meta property="og:url" content="https://wecan-events-and-promotions.co.za/enquiry.html">
+    <link rel="canonical" href="https://wecan-events-and-promotions.co.za/enquiry.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="enquiry">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <!-- Shared header -->
+    <header class="site-header">
+        <div class="topbar shell">
+            <a class="brand" href="index.html" aria-label="WECAN Events and Promotions home page">
+                <img src="images/logo.png" alt="WECAN Events and Promotions logo">
+                <span class="brand-copy">
+                    <strong>WECAN Events &amp; Promotions</strong>
+                    <small>Where talent meets opportunity</small>
+                </span>
+            </a>
+
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation">
+                Menu
+            </button>
+
+            <nav class="site-nav" id="site-navigation" aria-label="Primary navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="talent.html">Talent Hub</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+                <a class="nav-cta" href="enquiry.html" aria-current="page">Book an Event</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Page hero -->
+        <section class="page-hero" style="--hero-image: url('images/eventplanning2.jpg');">
+            <div class="shell page-hero-copy reveal">
+                <span class="eyebrow">Booking enquiry</span>
+                <h1>Tell WECAN about your event and get a quick planning estimate</h1>
+                <p>
+                    This form is different from the contact page. It focuses specifically on event requirements, budget,
+                    timeline, and service availability so clients get immediate guidance.
+                </p>
+            </div>
+        </section>
+
+        <!-- Form section -->
+        <section class="section shell reveal">
+            <div class="form-layout">
+                <form id="booking-form" class="form-shell" action="mailto:wecaneventsandpromotions@gmail.com" method="post">
+                    <div class="field-grid">
+                        <label class="field">
+                            <span>Full name</span>
+                            <input type="text" name="fullName" minlength="4" required>
+                        </label>
+
+                        <label class="field">
+                            <span>Email address</span>
+                            <input type="email" name="email" required>
+                        </label>
+
+                        <label class="field">
+                            <span>Phone number</span>
+                            <input type="tel" name="phone" pattern="^\+?[0-9 ]{10,15}$" placeholder="+27 66 403 4234" required>
+                        </label>
+
+                        <label class="field">
+                            <span>Event type</span>
+                            <select name="eventType" required>
+                                <option value="">Select one</option>
+                                <option value="Corporate">Corporate</option>
+                                <option value="Private">Private celebration</option>
+                                <option value="Community">Community event</option>
+                                <option value="Wedding">Wedding</option>
+                            </select>
+                        </label>
+
+                        <label class="field">
+                            <span>Preferred package</span>
+                            <select name="package" required>
+                                <option value="">Select one</option>
+                                <option value="Corporate">Corporate package</option>
+                                <option value="Private">Private package</option>
+                                <option value="Community">Community package</option>
+                            </select>
+                        </label>
+
+                        <label class="field">
+                            <span>Event date</span>
+                            <input id="event-date" type="date" name="eventDate" required>
+                        </label>
+
+                        <label class="field">
+                            <span>Estimated guest count</span>
+                            <input type="number" name="guests" min="20" max="2000" step="10" required>
+                        </label>
+
+                        <label class="field">
+                            <span>Budget (ZAR)</span>
+                            <input type="number" name="budget" min="1000" step="500" required>
+                        </label>
+
+                        <label class="field field-full">
+                            <span>Venue or area</span>
+                            <input type="text" name="location" minlength="4" placeholder="Mahikeng, Johannesburg, or your chosen venue" required>
+                        </label>
+
+                        <fieldset class="field field-full checkbox-group">
+                            <legend>Add-ons you need</legend>
+                            <label><input type="checkbox" name="addons" value="Decor styling">Decor styling</label>
+                            <label><input type="checkbox" name="addons" value="MC or host">MC or host</label>
+                            <label><input type="checkbox" name="addons" value="DJ or live performance">DJ or live performance</label>
+                            <label><input type="checkbox" name="addons" value="Photography">Photography</label>
+                        </fieldset>
+
+                        <label class="field field-full">
+                            <span>Event brief</span>
+                            <textarea name="brief" rows="5" minlength="30" placeholder="Share the mood, purpose, guest profile, and any special planning needs." required></textarea>
+                        </label>
+                    </div>
+
+                    <button class="button button-primary" type="submit">Review my event brief</button>
+                </form>
+
+                <aside class="status-panel" id="booking-response" role="status" aria-live="polite">
+                    <h3>Instant response area</h3>
+                    <p>
+                        After validation, WECAN will display an estimated planning range, basic availability guidance,
+                        and a prepared email draft link for the booking team.
+                    </p>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <!-- Shared footer -->
+    <footer class="site-footer">
+        <div class="shell footer-grid">
+            <div>
+                <h3>WECAN Events &amp; Promotions</h3>
+                <p>
+                    Professional event planning, talent promotion, and audience-focused experiences built for growth,
+                    visibility, and community impact.
+                </p>
+            </div>
+
+            <div>
+                <h4>Quick links</h4>
+                <ul class="footer-links">
+                    <li><a href="about.html">About the company</a></li>
+                    <li><a href="services.html">Packages and pricing</a></li>
+                    <li><a href="talent.html">Talent Hub</a></li>
+                    <li><a href="gallery.html">Event gallery</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Contact</h4>
+                <ul class="footer-links">
+                    <li><a href="mailto:wecaneventsandpromotions@gmail.com">wecaneventsandpromotions@gmail.com</a></li>
+                    <li><a href="tel:+27664034234">+27 66 403 4234</a></li>
+                    <li>Moletsamongwe Village, Mahikeng, North West</li>
+                    <li><a href="https://wa.me/27664034234">WhatsApp chat</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Social presence</h4>
+                <ul class="footer-links">
+                    <li>Facebook: WECAN Events And Promotions</li>
+                    <li>Instagram: @wecan_events_and_promotions</li>
+                    <li>Youth-driven event and talent platform</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="shell footer-bottom">
+            <p>&copy; <span id="current-year">2026</span> WECAN Events &amp; Promotions.</p>
+        </div>
+    </footer>
+
+    <a class="floating-cta" href="enquiry.html">Book an Event</a>
+
+    <script src="js/main.js" defer></script>
+</body>
+</html>

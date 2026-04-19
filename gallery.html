@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | WECAN event portfolio and lightbox</title>
+    <meta name="description" content="Browse the WECAN Events &amp; Promotions gallery of corporate, private, and community event moments with category filters and lightbox viewing.">
+    <meta name="keywords" content="event gallery, event portfolio, WECAN gallery, corporate event photos, private event photos">
+    <meta property="og:title" content="WECAN Event Gallery">
+    <meta property="og:description" content="Filterable event gallery with a lightbox experience for WECAN's portfolio showcase.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/party3.jpg">
+    <meta property="og:url" content="https://wecan-events-and-promotions.co.za/gallery.html">
+    <link rel="canonical" href="https://wecan-events-and-promotions.co.za/gallery.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="gallery">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <!-- Shared header -->
+    <header class="site-header">
+        <div class="topbar shell">
+            <a class="brand" href="index.html" aria-label="WECAN Events and Promotions home page">
+                <img src="images/logo.png" alt="WECAN Events and Promotions logo">
+                <span class="brand-copy">
+                    <strong>WECAN Events &amp; Promotions</strong>
+                    <small>Where talent meets opportunity</small>
+                </span>
+            </a>
+
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation">
+                Menu
+            </button>
+
+            <nav class="site-nav" id="site-navigation" aria-label="Primary navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="talent.html">Talent Hub</a>
+                <a href="gallery.html" aria-current="page">Gallery</a>
+                <a href="contact.html">Contact</a>
+                <a class="nav-cta" href="enquiry.html">Book an Event</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- Page hero -->
+        <section class="page-hero" style="--hero-image: url('images/party3.jpg');">
+            <div class="shell page-hero-copy reveal">
+                <span class="eyebrow">Portfolio gallery</span>
+                <h1>Moments that help visitors picture their own event</h1>
+                <p>
+                    The gallery is filterable so users can view the event types that matter most to them, then open a
+                    larger image view for closer detail.
+                </p>
+            </div>
+        </section>
+
+        <!-- Gallery filters and cards -->
+        <section class="section shell reveal">
+            <div class="section-heading">
+                <span class="eyebrow">Filterable showcase</span>
+                <h2>Browse by event category</h2>
+            </div>
+
+            <div class="filter-bar" aria-label="Gallery category filters">
+                <button type="button" class="filter-chip is-active" data-gallery-filter="all" aria-pressed="true">All moments</button>
+                <button type="button" class="filter-chip" data-gallery-filter="corporate" aria-pressed="false">Corporate</button>
+                <button type="button" class="filter-chip" data-gallery-filter="private" aria-pressed="false">Private</button>
+                <button type="button" class="filter-chip" data-gallery-filter="community" aria-pressed="false">Community</button>
+            </div>
+
+            <div class="gallery-grid">
+                <article class="gallery-card reveal" data-gallery-category="corporate" data-image="images/corporate5.jpg" data-title="Conference-ready setup" data-description="Corporate event layout with branded ambience and guest seating.">
+                    <img src="images/corporate5.jpg" alt="Guests seated at a corporate setup with stage lighting" loading="lazy">
+                    <div class="gallery-card-body">
+                        <span class="pill">Corporate</span>
+                        <h3>Conference-ready setup</h3>
+                        <p>Polished event presentation for professional audiences.</p>
+                        <button class="button button-primary gallery-open" type="button">Open image</button>
+                    </div>
+                </article>
+
+                <article class="gallery-card reveal" data-gallery-category="private" data-image="images/party4.jpg" data-title="High-energy celebration" data-description="Private event atmosphere with music, crowd energy, and celebration lighting.">
+                    <img src="images/party4.jpg" alt="Evening party crowd celebrating together" loading="lazy">
+                    <div class="gallery-card-body">
+                        <span class="pill">Private</span>
+                        <h3>High-energy celebration</h3>
+                        <p>Private moments can still feel premium, warm, and memorable.</p>
+                        <button class="button button-primary gallery-open" type="button">Open image</button>
+                    </div>
+                </article>
+
+                <article class="gallery-card reveal" data-gallery-category="community" data-image="images/outdoorevent.jpg" data-title="Outdoor community engagement" data-description="Open-air event bringing audiences and performers together.">
+                    <img src="images/outdoorevent.jpg" alt="Open-air event with guests and performers outdoors" loading="lazy">
+                    <div class="gallery-card-body">
+                        <span class="pill">Community</span>
+                        <h3>Outdoor community engagement</h3>
+                        <p>Designed to bring audiences, energy, and talent together.</p>
+                        <button class="button button-primary gallery-open" type="button">Open image</button>
+                    </div>
+                </article>
+
+                <article class="gallery-card reveal" data-gallery-category="private" data-image="images/wedding3.jpg" data-title="Elegant private styling" data-description="Decor-focused planning for milestone celebrations and intimate functions.">
+                    <img src="images/wedding3.jpg" alt="Styled wedding table and private function decor" loading="lazy">
+                    <div class="gallery-card-body">
+                        <span class="pill">Private</span>
+                        <h3>Elegant private styling</h3>
+                        <p>Decor-focused planning for milestone celebrations and intimate events.</p>
+                        <button class="button button-primary gallery-open" type="button">Open image</button>
+                    </div>
+                </article>
+
+                <article class="gallery-card reveal" data-gallery-category="corporate" data-image="images/corporate3.jpg" data-title="Audience-centred brand event" data-description="Audience layout and event flow designed to protect the brand experience.">
+                    <img src="images/corporate3.jpg" alt="Audience gathered at an indoor branded event" loading="lazy">
+                    <div class="gallery-card-body">
+                        <span class="pill">Corporate</span>
+                        <h3>Audience-centred brand event</h3>
+                        <p>Clear layouts and strong flow keep the experience professional.</p>
+                        <button class="button button-primary gallery-open" type="button">Open image</button>
+                    </div>
+                </article>
+
+                <article class="gallery-card reveal" data-gallery-category="community" data-image="images/outdoor3.jpg" data-title="Movement, crowd, and atmosphere" data-description="Community experiences thrive when planning and visibility work together.">
+                    <img src="images/outdoor3.jpg" alt="Busy crowd moving through a public outdoor experience" loading="lazy">
+                    <div class="gallery-card-body">
+                        <span class="pill">Community</span>
+                        <h3>Movement, crowd, and atmosphere</h3>
+                        <p>Community experiences thrive when planning and visibility work together.</p>
+                        <button class="button button-primary gallery-open" type="button">Open image</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <div class="lightbox" id="gallery-lightbox" hidden>
+        <div class="lightbox-backdrop" data-lightbox-close></div>
+        <div class="lightbox-dialog" role="dialog" aria-modal="true" aria-labelledby="lightbox-title">
+            <button class="lightbox-close" type="button" data-lightbox-close aria-label="Close image view">Close</button>
+            <img id="lightbox-image" src="" alt="">
+            <div class="lightbox-copy">
+                <h2 id="lightbox-title"></h2>
+                <p id="lightbox-description"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Shared footer -->
+    <footer class="site-footer">
+        <div class="shell footer-grid">
+            <div>
+                <h3>WECAN Events &amp; Promotions</h3>
+                <p>
+                    Professional event planning, talent promotion, and audience-focused experiences built for growth,
+                    visibility, and community impact.
+                </p>
+            </div>
+
+            <div>
+                <h4>Quick links</h4>
+                <ul class="footer-links">
+                    <li><a href="about.html">About the company</a></li>
+                    <li><a href="services.html">Packages and pricing</a></li>
+                    <li><a href="talent.html">Talent Hub</a></li>
+                    <li><a href="gallery.html">Event gallery</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Contact</h4>
+                <ul class="footer-links">
+                    <li><a href="mailto:wecaneventsandpromotions@gmail.com">wecaneventsandpromotions@gmail.com</a></li>
+                    <li><a href="tel:+27664034234">+27 66 403 4234</a></li>
+                    <li>Moletsamongwe Village, Mahikeng, North West</li>
+                    <li><a href="https://wa.me/27664034234">WhatsApp chat</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>Social presence</h4>
+                <ul class="footer-links">
+                    <li>Facebook: WECAN Events And Promotions</li>
+                    <li>Instagram: @wecan_events_and_promotions</li>
+                    <li>Youth-driven event and talent platform</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="shell footer-bottom">
+            <p>&copy; <span id="current-year">2026</span> WECAN Events &amp; Promotions.</p>
+        </div>
+    </footer>
+
+    <a class="floating-cta" href="enquiry.html">Book an Event</a>
+
+    <script src="js/main.js" defer></script>
+</body>
+</html>
