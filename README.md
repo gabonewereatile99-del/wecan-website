@@ -2,7 +2,7 @@
 
 ### Student Information
 - Module: WEB DEVELOPMENT (INTRODUCTION) - WEDE5020
-- Project: POE website build for WECAN Events & Promotions (Pty) Ltd
+- POE: website build for WECAN Events & Promotions (Pty) Ltd
 - Student name: Reatile Warona Letsie Gabonewe
 - Student number: ST10540396
 - Group: 04
@@ -116,7 +116,7 @@ wecan-website/
 - WhatsApp Business. (2024). WhatsApp Business for small and medium organisations.
 
 ### Notes
-- The proposal listed the domain with underscores. Real domain names cannot use underscores, so a deploy-friendly version such as `wecan-events-and-promotions.co.za` is recommended instead.
+- The proposal listed the domain with underscores. Real domain names cannot use underscores, so a deploy-friendly version such as `wecan-events-and-promotions.co.za` will be instead used.
 - If any images in the `images` folder were sourced externally, add the exact source URLs and access dates before final submission so the references section stays accurate.
 - Design system updated to reflect handcrafted warm aesthetic with bold red brand colors, earthy browns, and creative display typography.
 - Spacing and proportions improved throughout for better visual balance and professional presentation.
