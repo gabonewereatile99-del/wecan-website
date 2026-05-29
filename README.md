@@ -120,3 +120,66 @@ wecan-website/
 - If any images in the `images` folder were sourced externally, add the exact source URLs and access dates before final submission so the references section stays accurate.
 - Design system updated to reflect handcrafted warm aesthetic with bold red brand colors, earthy browns, and creative display typography.
 - Spacing and proportions improved throughout for better visual balance and professional presentation.
+
+---
+
+## Part 2: CSS Styling & Responsive Design
+
+### Responsive Breakpoints
+
+| Breakpoint | Width | Changes Applied |
+|-----------|-------|----------------|
+| Desktop | 1280px+ | Full layout, 3-column grids, horizontal nav |
+| Tablet | max-width: 768px | 2-column grid, stacked footer, adjusted fonts |
+| Mobile | max-width: 480px | Single column, full-width forms, compact nav |
+
+### Layout Techniques Used
+- Flexbox: navigation, hero section, footer, portfolio container
+- CSS Grid: services cards, gallery grid
+- Relative units: rem, em, % used throughout
+- Pseudo-classes: :hover, :focus, :active on all interactive elements
+
+### Screenshot Evidence
+Testing done using Chrome DevTools Toggle Device Toolbar.
+
+**index.html**
+| Device | Screenshot |
+|--------|-----------|
+| Desktop | ![desktop](screenshots/desktop-index.jpg) |
+| Tablet | ![tablet](screenshots/tablet-index.jpg) |
+| Mobile | ![mobile](screenshots/mobile-index.jpg) |
+
+**services.html**
+| Device | Screenshot |
+|--------|-----------|
+| Desktop | ![desktop](screenshots/desktop-services.jpg) |
+| Tablet | ![tablet](screenshots/tablet-services.jpg) |
+| Mobile | ![mobile](screenshots/mobile-services.jpg) |
+
+**enquiry.html**
+| Device | Screenshot |
+|--------|-----------|
+| Desktop | ![desktop](screenshots/desktop-enquiry.jpg) |
+| Tablet | ![tablet](screenshots/tablet-enquiry.jpg) |
+| Mobile | ![mobile](screenshots/mobile-enquiry.jpg) |
+
+---
+
+## Part 2 Changelog - 2026-05-29
+
+- Added responsive breakpoints for tablet (768px) and mobile (480px)
+- Applied Flexbox to navigation, hero, footer and portfolio sections
+- Applied CSS Grid to services cards and gallery
+- Added pseudo-classes: :hover, :focus, :active throughout
+- Fixed footer email overlap using word-wrap
+- Added portfolio carousel with CSS transitions
+- Collected screenshot evidence across desktop, tablet and mobile
+- Added screenshots/ folder with responsive testing evidence
+
+---
+
+## Updated References
+
+- Mozilla Developer Network. (2026). *CSS Flexbox Layout.* [Online]. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout [Accessed: 29 May 2026].
+- Mozilla Developer Network. (2026). *Using media queries.* [Online]. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries [Accessed: 29 May 2026].
+- W3Schools. (2026). *CSS Responsive Web Design.* [Online]. Available at: https://www.w3schools.com/css/css_rwd_intro.asp [Accessed: 29 May 2026].

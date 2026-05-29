@@ -1234,3 +1234,48 @@ iframe {
 .footer-links {
     gap: 1rem;
 }
+
+/* TABLET - 768px */
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-grid {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-copy h1 {
+    font-size: 2rem;
+  }
+}
+
+/* MOBILE - 480px */
+@media (max-width: 480px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-copy h1 {
+    font-size: 1.5rem;
+  }
+
+  body {
+    font-size: 0.9rem;
+  }
+
+  form input,
+  form textarea,
+  form select {
+    width: 100%;
+    }
+}
