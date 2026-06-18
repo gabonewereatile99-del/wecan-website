@@ -184,3 +184,79 @@ Testing done using Chrome DevTools Toggle Device Toolbar.
 - Mozilla Developer Network. (2026). *CSS Flexbox Layout.* [Online]. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout [Accessed: 29 May 2026].
 - Mozilla Developer Network. (2026). *Using media queries.* [Online]. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries [Accessed: 29 May 2026].
 - W3Schools. (2026). *CSS Responsive Web Design.* [Online]. Available at: https://www.w3schools.com/css/css_rwd_intro.asp [Accessed: 29 May 2026].
+
+---
+
+## Part 3: Enhancing Functionality and SEO
+
+### Feedback from Part 2
+Lecturer feedback for Part 2 was "excellent work" with no corrections or 
+changes required. No edits were necessary before proceeding to Part 3.
+
+### JavaScript Enhancements
+
+**Interactive Elements:**
+- Gallery lightbox: clicking directly on any gallery image now opens 
+  the larger image view, in addition to the existing "Open image" button
+- FAQ accordion on the homepage for expandable/collapsible content
+- Interactive Google Map embedded on contact.html
+
+**Dynamic Content and Search:**
+- Search/filter functionality implemented to filter and sort content
+
+**Forms:**
+- enquiry.html: validated form that processes user input and displays 
+  a response with relevant booking/availability information
+- contact.html: validated form that compiles submitted details into an 
+  email preview, with a mailto link allowing the user to send the 
+  message through their own email client
+- talent.html: validated form that processes creative profile 
+  submissions and displays a confirmation response
+
+### SEO Implementation
+- Title tags and meta descriptions added to every page
+- Meta keywords implemented across all pages
+- Image file names and alt text optimised for accessibility and SEO
+- robots.txt created to guide search engine crawlers
+- sitemap.xml created to map the site structure for search engines
+
+---
+
+## Part 3 Changelog - 2026-06-18
+
+- Documented Part 2 feedback: The feedback i recevied was "excellent work" with that being the case i did not make much changes to the website besides going over the functionality and update the informaton where users might need clarity on.
+- Updated gallery lightbox so clicking the image itself (not just the 
+  "Open image" button) opens the larger view
+- Updated the email preview message on contact.html for better clarity, 
+  explaining to users that clicking "Send Email" opens their default 
+  email app with the message pre-filled
+- Verified SEO tags (title, meta description, meta keywords), alt text, 
+  robots.txt and sitemap.xml are implemented across all pages
+- Verified form validation and response handling on enquiry.html, 
+  contact.html and talent.html
+- Confirmed interactive elements (gallery lightbox, FAQ accordion, 
+  contact map) and search/filter functionality are working correctly
+
+---
+
+## Updated References
+
+- Mozilla Developer Network. (2026). *Using the FormData interface.* 
+  [Online]. Available at: https://developer.mozilla.org/en-US/docs/Web/API/FormData 
+  [Accessed: 18 June 2026].
+- Mozilla Developer Network. (2026). *Form data validation.* [Online]. 
+  Available at: https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation 
+  [Accessed: 18 June 2026].
+- Google Search Central. (2026). *SEO Starter Guide.* [Online]. 
+  Available at: https://developers.google.com/search/docs/fundamentals/seo-starter-guide 
+  [Accessed: 18 June 2026].
+- Google for Developers. (2026). *Google Maps Embed API.* [Online]. 
+  Available at: https://developers.google.com/maps/documentation/embed/get-started 
+  [Accessed: 18 June 2026].
+- W3Schools. (2026). *HTML5 robots.txt.* [Online]. Available at: 
+  https://www.w3schools.com/html/html5_seo.asp [Accessed: 18 June 2026].
+
+---
+
+## Live Website
+🌐 [View Live Site](https://gabonewereeatile99-del.github.io/wecan-website/)

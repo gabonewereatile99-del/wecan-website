@@ -231,6 +231,18 @@ setInterval(() => {
             });
         });
 
+        // Make gallery images clickable and enable enlargement instead of just the "View" button.
+document.querySelectorAll('.gallery-card img').forEach((img) => {
+    img.style.cursor = 'pointer';
+    img.addEventListener('click', () => {
+        const card = img.closest('.gallery-card');
+        const openButton = card?.querySelector('.gallery-open');
+        if (openButton) {
+            openButton.click();
+        }
+    });
+});
+
         lightbox.querySelectorAll("[data-lightbox-close]").forEach((node) => {
             node.addEventListener("click", closeLightbox);
         });
