@@ -190,8 +190,8 @@ Testing done using Chrome DevTools Toggle Device Toolbar.
 ## Part 3: Enhancing Functionality and SEO
 
 ### Feedback from Part 2
-Lecturer feedback for Part 2 was "excellent work" with no corrections or 
-changes required. No edits were necessary before proceeding to Part 3.
+The feedback i got for Part 2 was "excellent work". That being the case not much corrections or 
+changes were made besides improving functionality and user UX.
 
 ### JavaScript Enhancements
 
@@ -259,4 +259,5 @@ changes required. No edits were necessary before proceeding to Part 3.
 ---
 
 ## Live Website
-🌐 [View Live Site](https://gabonewereeatile99-del.github.io/wecan-website/)
+[View Live Site] https://gabonewereatile99-del.github.io/wecan-website/
+[GitHub Link] https://github.com/gabonewereatile99-del/wecan-website.git
